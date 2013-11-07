@@ -3,11 +3,13 @@ Vimのhelpをブラウザで見るためのBookmarklet
 
 とうろく
 -----
-1. [vimdoc@en](javascript:(function(){var a=encodeURIComponent(window.getSelection()),a=a?a:encodeURIComponent(window.prompt("vimdoc@en"));"null"!=a&&""!=a&&window.open("http://vimdoc.sourceforge.net/search.php?search="+a+"&docs=help","_blank")})();)
-2. [vimdoc@ja](javascript:(function(){var a=encodeURIComponent(window.getSelection()),a=a?a:encodeURIComponent(window.prompt("vimdoc@ja"));"null"!=a&&""!=a&&window.open("http://www.google.com/cse?cx=001325159752250591701:65aunpq8rlg&q=%3Ahelp&oq=%3Ahelp&gs_l=partner.3...3689.4519.0.4809.0.0.0.0.0.0.0.0..0.0.gsnos%2Cn%3D13...0.833j191887j6..1ac.1.25.partner..0.0.0.#gsc.tab=0&gsc.q="+a,"_blank")})();)
-3. [vimdoc-en-to-ja](javascript:(function(){var a=window.location.href;re=/vimdoc.sourceforge.net/;re2=/vim-jp.org\/vimdoc-ja/;re.test(a)?(a=a.replace("vimdoc.sourceforge.net/htmldoc/","vim-jp.org/vimdoc-ja/"),window.open(a,"_blank")):re2.test(a)&&(a=a.replace("vim-jp.org/vimdoc-ja/","vimdoc.sourceforge.net/htmldoc/"),window.open(a,"_blank"))})();)
+1. [vimdoc@en](https://raw.github.com/haya14busa/vimdoc-marklet/master/vimdoc-marklet-en.mim.js)
 
-リンクをドラックなどしてブックマークに登録してください。コードが古い可能性があるので気になる場合は、各種min.jsのファイルを参照してください。
+2. [vimdoc@ja](https://raw.github.com/haya14busa/vimdoc-marklet/master/vimdoc-marklet-ja.mim.js)
+
+3. [vimdoc-en-to-ja](https://raw.github.com/haya14busa/vimdoc-marklet/master/vimdoc-en-to-ja.mim.js)
+
+リンク先のコードをコピーしてブックマーク追加&アドレス編集などして登録してください。
 
 つかいかた
 -----
