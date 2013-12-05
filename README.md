@@ -33,7 +33,7 @@ vimdoc-en-to-jaはsourceforgeの英語版vimdocを読んでる時に実行する
 
 vimdoc@enを最初に使って、日本語版はvimdoc-en-to-jaを使うなどするといいかも。</s>
 
-[github@osyo-manga](https://github.com/osyo-manga)さんがhttp://vim-help-jp.herokuapp.com/を使って改善してくれました。便利。
+[github@osyo-manga](https://github.com/osyo-manga)さんが[http://vim-help-jp.herokuapp.com/](http://vim-help-jp.herokuapp.com/)を使って改善してくれました。便利。
 
 ということで、その仕様が変わると、vimdoc@jaは対応するまで使えません。注意。
 
