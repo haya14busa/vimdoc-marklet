@@ -29,9 +29,9 @@ vimdoc-en-to-jaはsourceforgeの英語版vimdocを読んでる時に実行する
 -----
 ブラウザでVimのhelp見たい時まれにあるかもしれないし、ブックマークレットあると便利。
 
-~~vimdoc@jaの方が構成が見やすくていいけど、検索が英語版のsourceforgeの方が自前で検索対応しているので(日本語版はGoogleカスタム検索)検索精度はvimdoc@enのほうが良さげ。
+~~vimdoc@jaの方が構成が見やすくていいけど、検索が英語版のsourceforgeの方が自前で検索対応しているので(日本語版はGoogleカスタム検索)検索精度はvimdoc@enのほうが良さげ。~~
 
-vimdoc@enを最初に使って、日本語版はvimdoc-en-to-jaを使うなどするといいかも。~~
+~~vimdoc@enを最初に使って、日本語版はvimdoc-en-to-jaを使うなどするといいかも。~~
 
 [github@osyo-manga](https://github.com/osyo-manga)さんが[http://vim-help-jp.herokuapp.com/](http://vim-help-jp.herokuapp.com/)を使って改善してくれました。便利。
 
