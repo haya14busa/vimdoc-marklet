@@ -12,7 +12,7 @@ Vimのhelpをブラウザで見るためのBookmarklet
 リンク先のコードをコピーしてブックマーク追加&アドレス編集などして登録してください。
 
 ### もしかしたら、アプデされてないかもしれないけど楽な登録法
-下記リンクをドラッグ&ドロップするなどしてブックマークに登録し、?以前(https://github.com/haya14busa/vimdoc-marklet?)を削除してください。
+下記リンクをドラッグ&ドロップするなどしてブックマークに登録し、?以前(`https://github.com/haya14busa/vimdoc-marklet?`)を削除してください。
 
 1. <a href='https://github.com/haya14busa/vimdoc-marklet?javascript:(function(){var a=encodeURIComponent(window.getSelection()),a=a?a:encodeURIComponent(window.prompt("vimdoc@en"));"null"!=a&&""!=a&&window.open("http://vimdoc.sourceforge.net/search.php?search="+a+"&docs=help","_blank")})();'>vimdoc@en</a>
 2. <a href='https://github.com/haya14busa/vimdoc-marklet?javascript:(function(){var a=encodeURIComponent(window.getSelection()),a=a?a:encodeURIComponent(window.prompt("vimdoc@ja"));"null"!=a&&""!=a&&window.open("http://vim-help-jp.herokuapp.com/vimdoc/?query="+a,"_blank")})();'>vimdoc@ja</a>
